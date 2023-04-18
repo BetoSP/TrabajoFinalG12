@@ -1,22 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .myFont{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
-    
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-.myFont{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 16px;
-}
 .main-article {
-    margin-top:2rem;
-    margin-bottom:1rem;
-    padding-top:1rem;
-    
+    margin-top: 1rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid lightslategray;
+    border-bottom: 1px solid lightslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+  }
+
+  .cajaFlex {
+    display: flex;
+    column-gap: 10px;
+  }
+
+  article {
+    padding: 1rem;  
+  }
+  
+  .foto {
+    column-width: auto;
+  }
+  
+  .curriculum {
+   column-width: auto;
+   margin: auto;
+  }
+  
+  ul{
+   list-style: none; 
+  }
+
+  article img {
+    float: left;
+    margin-right: 14px;
+    border-radius: 50%;
+    height: 300px;
   }
 
   #mapa{
@@ -24,37 +55,36 @@
     display: flex;
     justify-content: center;
   }
-
-
  .footer{
     background-color: rgba(147, 147, 147, 0.15);
     text-align:center;
+    margin-top:5px;
 }
 .footer-logo{
     text-align:center;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 1.5em;
 }
 .social{
     text-align:center;
-     padding-top: 1rem;
+    align-items: center;
+    justify-items: center;
+    
+    padding-top: 1rem;
     padding-bottom: 2rem;
    }
    .contact{
     display:block;
-    
   }
   .contact p a{
     text-decoration: none;
     color:unset ;
   }
   .credits{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-top: 1px solid lightslategray;
    
   }
- /* #formReserva {
-    display: flex;
-    justify-content: center;
-  }*/
+.credits h6 a img{
+  margin-left: 40px;
+}
